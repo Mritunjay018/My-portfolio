@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio | Mritunjay Dubey</title>
+    <style>
+      /* Styling same as previous code */
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f3f4f6;
+        color: #333;
+      }
+      .highlight {
+        color: #ffc107;
+      } 
+      .myname {
+        font-family: fantasy;
+        color: #ffc107;
+      }
+      .bodyofwebpage {
+        background-color: #111;
+        color: white;
+      }
+      .myprofile {
+        width: 70%;
+        border-radius: 50%;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+      }
+      .navbar {
+        background-color: #1a202c;
+      }
+      .navbar-brand {
+        color: #fbbf24;
+      }
+      .body-section {
+        padding: 4rem 0;
+      }
+      .intro-section {
+        background: linear-gradient(to right, #1a202c, #2d3748);
+        color: #f3f4f6;
+        min-height: 80vh;
+        text-align: center;
+        padding: 4rem 1rem;
+      }
+      .profile-pic {
+        border-radius: 50%;
+        width: 200px;
+        border: 4px solid #fbbf24;
+      }
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      }
+      .footer {
+        background-color: #1a202c;
+        color: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="highlight">Mritunjay Dubey</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    
+      <div class="container-fluid bodyofwebpage p-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img
+              src="WhatsApp Image 2024-11-15 at 17.42.14_d501f5f4.jpg"
+              class="myprofile"
+              alt="Profile Picture"
+            />
+          </div>
+          <div class="col-md-6">
+            <h1 class="display-4">Hello, I'm <span class="highlight">Mritunjay Dubey</span></h1>
+            <p class="lead">
+              Tech enthusiast and AIML engineer, passionate about Technology and also speeker at  <span class="highlight">Matrix  Technical community</span>.
+            </p>
+            <p>
+              Experienced in web development, data structures, algorithms, Python, and more. Currently student at Shri Ram Institute of Technology, where I learn create and innovate.
+            </p>
+          </div>
+        </div>
+      </div>
+    
+
+    <!-- Projects Section -->
+    <section class="body-section project-section" id="projects">
+      <div class="container text-center">
+        <h2 class="mb-4">My Projects</h2>
+        <div class="row">
+          
+
+          <!-- Project 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="WhatsApp Image 2024-11-15 at 17.45.13_ed5556d0.jpg"
+                alt="roject Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Build your own Gadget</h5>
+                <p class="card-text">
+                  Created a professional, user-centered pwebsite whre you can see 
+                  the coded for training your owm robut and bulid your own Gadget.
+        .
+                </p>
+                <a href="#" class="Gadget4Us-main">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more project cards as needed -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="WhatsApp Image 2024-11-15 at 17.51.57_6af49389.jpg"
+                alt="Project Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">College networks</h5>
+                <p class="card-text">
+                  Developed a visual representation of the college network, 
+                  highlighting the connections between departments and faculty members.
+                </p>
+                <a href="#" class="MRITUNJAY DUBEY.pkt">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="body-section contact-section" id="contact">
+      <div class="container text-center">
+        <h2 class="mb-4">Get In Touch</h2>
+        <p>I'd love to hear from you! Feel free to reach out via the form below.</p>
+        <form
+          action="https://formsubmit.co/mritunjayd018@gmail.com.com"
+          method="POST"
+          class="mx-auto col-md-6"
+        >
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container text-center">
+        <p>&copy; 2024 Mritunjay Dubey. All rights reserved.</p>
+        <p>
+          <a href="#" class="text-warning"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          |
+          <a href="#" class="text-warning"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          |
+          <a href="#" class="text-warning"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
